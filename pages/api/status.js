@@ -1,5 +1,5 @@
 function status(request, response) {
-  response.status(200).send("Alunos do curso.dev");
+  response.status(200).json({ msg: "Alunos do curso.dev estão online!" });
 }
 
 export default status;
